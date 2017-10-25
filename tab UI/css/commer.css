@@ -1,0 +1,46 @@
+body,html,div,ul,li{
+			border:0;
+			margin:0;
+			padding:0;
+		}
+		li{
+			list-style-type:none;
+		}
+		.tab-cantainer{
+			border:1px solid #999;
+			border-radius:15px;
+			margin:20px auto;
+			width:600px;
+		}
+		.tab-header{
+			padding-top:30px;
+			border-bottom:1px solid #999;
+			line-height:50px;
+			height:50px;
+		}
+		.tab-header li{
+			display:inline-block;
+			border:1px solid #999;
+			border-bottom:0;
+			border-radius:10px 10px 0 0;
+			margin:0 10px;
+			text-align:center;
+			width: 80px;
+			font-size:18px;
+			color:red;
+		}
+		.tab-header>.on{
+			color:#222;
+			background: #fff;
+		}
+		.tab-content{
+			padding:20px;
+			height:80px;
+			font-size:30px;
+		}
+		.tab-content>li{
+			display: none;
+		}
+		.tab-content>.show{
+			display: block;
+		}

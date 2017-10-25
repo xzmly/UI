@@ -1,0 +1,72 @@
+body,html,h1,h2,h3,h4,h5,div,span,ul,li,a,img{
+	border:0;
+	margin:0;
+	padding:0;
+}
+a{
+  text-decoration:none;
+}
+img{
+  width:380px;
+  height:230px;
+}
+.Carousel-cantainer{
+  position:relative;
+  z-index:1;
+  margin:50px auto;
+  width:380px;
+  height:230px;
+  overflow:hidden;
+}
+.wrap{
+  position:absolute;
+  z-index:2;
+  width:1520px;
+  overflow:hidden;
+}
+.wrap li{
+  display:inline-block;
+  float:left;
+}
+.btn a{
+  color:#fff;
+  position:absolute;
+  z-index:2;
+  top:50%;
+  margin-top:-15px;
+  border:1px solid #fff;
+  border-radius:50%;
+  text-align:center;
+  line-height:30px;
+  width:30px;
+  height:30px;
+  font-weight:800px;
+}
+.btn a:first-child{
+  left:10px;
+}
+.btn a:last-child{
+  right:10px;
+}
+
+.bullet{
+  position:absolute;
+  bottom:10px;
+  z-index:2;
+  text-align:center;
+  width:100%;
+  line-height:0;
+  font-size:0;
+}
+.bullet>li{
+	cursor: pointer;
+  display:inline-block;
+  width:30px;
+  height:5px;
+  margin:0 5px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+.active{
+  background:red;
+}
